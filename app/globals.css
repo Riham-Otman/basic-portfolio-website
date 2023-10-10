@@ -7,7 +7,9 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
-
+@font-face {
+  font-family: "Courier New";
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -25,3 +27,5 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
